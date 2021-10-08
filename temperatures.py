@@ -20,7 +20,6 @@ Q - Quit"""
              fahrenheit = float(input("Fahrenheit:"))
              F=Fahrenheit_to_Celsius(fahrenheit)
              print("Result:{:.2f} C".format(F))
-
         print(MENU)
         choice = input(">>> ").upper()
     print("Thank you.")
